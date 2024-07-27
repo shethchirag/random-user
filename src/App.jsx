@@ -48,7 +48,7 @@ const App = () => {
             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4 transition-transform duration-300 hover:scale-105"
             disabled={loading}
           >
-            Fetch New User
+            {error ? "Retry" : "Fetch New User"}
           </button>
         </div>
       </div>
